@@ -70,14 +70,23 @@ body {
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .page-nav {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -103,14 +112,19 @@ body {
 
 .menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
+
 .menu-link {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.menu-item {
+  padding: 24px 0;
 }
 
 .menu-link:hover,
