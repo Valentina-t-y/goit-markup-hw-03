@@ -287,9 +287,16 @@ body {
   letter-spacing: 0.02em;
   padding-bottom: 32px;
 }
+.team-name-position {
+  padding: 32px 0;
+}
 /*========= /TEAM STYLES ==========*/
 
 /*========== PORTFOLIO STYLES =========*/
+.portfiolio {
+  padding: 120px 0 120px 0;
+}
+
 .portfolio-title {
   width: 218px;
   margin-left: auto;
@@ -328,6 +335,9 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.porflio-products {
+  padding: 32px 16px;
 }
 /*========== /PORTFOLIO STYLES =========*/
 
