@@ -294,7 +294,8 @@ body {
 
 /*========== PORTFOLIO STYLES =========*/
 .portfiolio {
-  padding: 120px 0 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
