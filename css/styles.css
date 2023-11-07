@@ -191,18 +191,17 @@ body {
 /*========= /HERO STYLES =========*/
 
 /*========= BENEFITS STYLES ==========*/
-.benefits-container {
-  padding-left: 120px;
-  padding-right: 120px;
+.benefits {
+  padding: 120px 0;
 }
 
 .benefits-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .benefits-list-item {
-  width: calc(100%- (24 * 3) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .benefits-list-title {
